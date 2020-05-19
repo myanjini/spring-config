@@ -1,5 +1,6 @@
 # 214 페이지 참조
 zuul.ignored-services: '*'
-zuul.prefix: /api4
+# zuul.prefix: /api4
+zuul.routes.testservice: /licengin/**
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
