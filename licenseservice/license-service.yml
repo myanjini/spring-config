@@ -1,9 +1,9 @@
-spring:
-  application:
-    name: license-service
-  profiles:
-    active:
-    - dev
+# spring:
+#   application:
+#     name: license-service
+#   profiles:
+#     active:
+#     - dev
 management:
   endpoints:
     web:

@@ -1,5 +1,5 @@
-spring:
-    application:
-        name: license-service-DEV
+# spring:
+#     application:
+#         name: license-service-DEV
 custom:
     name: develop
