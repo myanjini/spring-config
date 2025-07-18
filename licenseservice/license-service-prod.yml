@@ -1,2 +1,4 @@
 custom:
     name: production
+example:
+    property: "I AM PROD"
