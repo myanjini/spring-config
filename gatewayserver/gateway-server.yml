@@ -21,16 +21,16 @@ spring:
           routes:
             - id: license-serivce
               predicates:
-                - Path=/licsvc/**
+                - Path=/newlicsvc/**
               uri: lb://LICENSE-SERVICE
               filters:
-                - RewritePath=/licsvc/(?<segment>.*), /v1/${segment}
+                - RewritePath=/newlicsvc/(?<segment>.*), /v1/${segment}
             - id: organization-service
               predicates:
-                - Path=/orgsvc/**
+                - Path=/neworgsvc/**
               uri: lb://ORGANIZATION-SERVICE
               filters:
-                - RewritePath=/orgsvc/(?<segment>.*), /v1/${segment}
+                - RewritePath=/neworgsvc/(?<segment>.*), /v1/${segment}
 
 management:
   endpoints:
