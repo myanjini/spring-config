@@ -8,3 +8,13 @@ eureka:
       defaultZone: http://localhost:8070/eureka/
   instance: 
     preferIpAddress: true  
+
+spring:
+  cloud:
+    gateway:
+      server: 
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              lowerCaseServiceId: true
