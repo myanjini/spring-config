@@ -15,9 +15,9 @@ spring:
       server: 
         webflux:
           discovery:
-            locator:
-              enabled: true
-              lowerCaseServiceId: true
+            # locator:
+            #   enabled: true
+            #   lowerCaseServiceId: true
             routes:
               - id: license-serivce
                 predicates:
